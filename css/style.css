@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .container-wrap {
-  max-width: 1060px;
+  max-width: 95vw;
   margin: 0 auto;
   margin-bottom: 1em;
   background: #fff;
@@ -548,6 +548,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ministries-list li i {
   padding-right: 10px;
+}
+
+.services{
+  margin-bottom: 3rem;
 }
 
 .services, .news {
