@@ -553,6 +553,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .services{
   margin-bottom: 3rem;
+  width: 100%;
+  /* background-color: #46b8da; */
 }
 
 .services, .news {
@@ -569,14 +571,20 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .services .img-holder, .news .img-holder {
   width: 100%;
+  height: 30vh;
   float: left;
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
+  /* background-color: #46b8da; */
+  display: block;
+  
   z-index: 1;
 }
 .services .img-holder img, .news .img-holder img {
   max-width: 100%;
+  height: 100%;
+
   z-index: -1;
   position: relative;
   -webkit-transform: scale(1);
