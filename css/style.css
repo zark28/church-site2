@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: normal;
 }
 
+
 ::-webkit-selection {
   color: #fff;
   background: #658361;
@@ -385,7 +386,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position:center;
   height: 500px;
   position: relative;
 }
