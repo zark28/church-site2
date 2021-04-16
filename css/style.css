@@ -113,6 +113,10 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .top-menu {
     padding: 28px 1em;
   }
+  #fh5co-logo > * {
+    font-size: 30px;
+  }
+  
 }
 .fh5co-nav #fh5co-logo {
   font-size: 45px;
@@ -122,6 +126,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
+
+
 @media screen and (max-width: 768px) {
   .fh5co-nav #fh5co-logo {
     border-bottom: none;
@@ -530,7 +536,22 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-intro h2 {
   font-style: italic;
+  
+
 }
+#fh5co-intro h2 >* {
+  list-style: disc;
+  display: inline-block;
+  background-color: rgba(37, 37, 37, 0.329);
+  margin: 10px 4px;
+  padding: 8px;
+  border-radius: 20px; 
+
+}
+#fh5co-intro h2 >*:hover{
+  color:#fff;
+}
+
 
 .dailyVerse {
   font-family: "Libre Baskerville", serif;
@@ -635,10 +656,17 @@ h1, h2, h3, h4, h5, h6, figure {
   .sermon {
     height: 400px;
   }
+  #fh5co-intro h2 >*{
+    color:#fff;
+  }
+ 
 }
 @media screen and (max-width: 480px) {
   .sermon {
     height: 270px;
+  }
+  #fh5co-intro h2 >*{
+    color:#fff;
   }
 }
 .sermon:before {
@@ -934,7 +962,8 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  /* background: black; */
+  background:rgba(255, 255, 255, 0.788);
   top: 0;
   right: 0;
   top: 0;
@@ -950,6 +979,7 @@ input[type="text"] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  border-radius: 50px 0 0px 50px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-offcanvas {
@@ -972,11 +1002,21 @@ input[type="text"] {
 #fh5co-offcanvas ul {
   padding: 0;
   margin: 0;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #fh5co-offcanvas ul li {
-  padding: 0;
+  padding: 4px 4px 4px 40px;
   margin: 0;
   list-style: none;
+  background-color: #4cae4c;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  border-radius: 50px 0 0px 50px;
+
 }
 #fh5co-offcanvas ul li > ul {
   padding-left: 20px;
